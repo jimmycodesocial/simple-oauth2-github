@@ -1,6 +1,6 @@
 {
   "name": "@jimmycode/simple-oauth2-github",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "A simple Node.js client library for GitHub OAuth2.",
   "keywords": [
     "oauth2",

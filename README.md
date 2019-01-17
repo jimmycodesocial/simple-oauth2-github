@@ -11,19 +11,19 @@ Latest Node 8 LTS or newer versions.
 ## Getting started
 
 ```
-npm install --save simple-oauth2 simple-oauth2-github
+npm install --save simple-oauth2 @jimmycode/simple-oauth2-github
 ```
 
 or 
 
 ```
-yarn add simple-oauth2 simple-oauth2-github
+yarn add simple-oauth2 @jimmycode/simple-oauth2-github
 ```
 
 ### Usage
 
 ```js
-const simpleOAuth2Github = require('simple-oauth2-github');
+const simpleOAuth2Github = require('@jimmycode/simple-oauth2-github');
 const github = simpleOAuth2Github.create(options);
 ```
 
@@ -112,7 +112,7 @@ router.get('/auth/github/callback', async(req, res) => {
 ### With SimpleOAuth2Github
 
 ```js
-const simpleOAuth2Github = require('simple-oauth2-github');
+const simpleOAuth2Github = require('@jimmycode/simple-oauth2-github');
 
 const github = simpleOAuth2Github.create({
   clientId: process.env.GITHUB_CLIENT_ID,
